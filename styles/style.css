@@ -159,10 +159,11 @@
 .circle-p_two {
     font-size: 20px;
 }
-.circle_img{
+
+.circle_img {
     padding: 49px;
-    width: 463px; 
-    border: 10px solid red; 
+    width: 463px;
+    border: 10px solid red;
     border-radius: 50%;
     overflow: hidden;
     /* display: flex;
@@ -179,10 +180,45 @@
 .cicle-text-content-two {
     width: 291px;
 }
-.cicle-text-content-two h3{
-font-size: 48px;
-font-weight: bold;
+
+.cicle-text-content-two h3 {
+    font-size: 48px;
+    font-weight: bold;
 }
-.cicle-text-content-two p{
+
+.cicle-text-content-two p {
     font-size: 20px;
+}
+
+/* discount section*/
+
+.discount-container {
+height: 987px;
+margin-top: 122px;
+   
+}
+
+.discount-content {
+    text-align: center;
+    width: 1068px;
+margin: 30px auto;
+}
+.discount-content h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-content h1{
+    font-size: 72px;
+    padding-top: 18px;
+
+}
+.discount-content p{
+    font-size: 20px;
+    padding-bottom: 64px;
+}
+.discount-img-contianer{
+    background-image: url(../images/Group\ 75.png),url(../images/Rectangle\ 2.png),url(../images/Group\ 44.png) ;
+    height: 662px;
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom center ,top right;
 }
