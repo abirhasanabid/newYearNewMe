@@ -272,6 +272,7 @@
 }
 .form{
     width: 648px;
+    margin: auto;
 }
 .form-input {
     border-top-left-radius: 50px;
