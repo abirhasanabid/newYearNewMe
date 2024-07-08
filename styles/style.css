@@ -16,6 +16,11 @@
     margin: 0 auto;
 }
 
+.all-p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 /* shared end */
 
 .banner-img {
@@ -193,32 +198,75 @@
 /* discount section*/
 
 .discount-container {
-height: 987px;
-margin-top: 122px;
-   
+    height: 987px;
+    margin-top: 122px;
 }
 
 .discount-content {
     text-align: center;
     width: 1068px;
-margin: 30px auto;
+    margin: 0 auto;
 }
-.discount-content h3{
+
+.discount-content h3 {
     font-size: 24px;
     font-weight: 500;
 }
-.discount-content h1{
-    font-size: 72px;
+
+.discount-content h1 {
+    font-size: 65px;
     padding-top: 18px;
 
 }
-.discount-content p{
+
+.discount-content p {
     font-size: 20px;
-    padding-bottom: 64px;
+    /* padding-bottom: 64px; */
 }
-.discount-img-contianer{
-    background-image: url(../images/Group\ 75.png),url(../images/Rectangle\ 2.png),url(../images/Group\ 44.png) ;
+
+.discount-img-contianer {
+    background-image: url(../images/Group\ 75.png), url(../images/Rectangle\ 2.png), url(../images/Group\ 44.png);
     height: 662px;
     background-repeat: no-repeat;
-    background-position: bottom left, bottom center ,top right;
+    background-position: bottom left, bottom center, top right;
+}
+
+/* portfolio  section*/
+.portfolio-container {
+    margin-top: 122px;
+    height: 1163px;
+}
+
+.portfolio-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.portfolio_img {
+    display: flex;
+    margin-top: 40px;
+}
+
+/* newsletter section*/
+.news-container{
+margin-top: 122px;
+}
+.news-content{
+background-color: rgba(255, 0, 0, 0.05);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 616px;
+padding: 80px 212px;
+}
+.news-text{
+    text-align: center;
+}
+.form {
+
 }
