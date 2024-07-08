@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-* {
+.font_family {
+    font-family: "Merriweather", serif;
     font-family: "Inter", sans-serif;
 }
 
-/* share color */
+/* shares  */
 .share_color {
     color: #FF0000;
 }
 
 .center_auto {
-    height: 1320px;
+    max-width: 1320px;
+    height: 600px;
     margin: 0 auto;
 }
+
+/* shared end */
 
 .banner-img {
     width: 1320px;
@@ -96,4 +100,89 @@
     font-size: 18px;
     color: #FFFFFF;
     opacity: 0.7;
+}
+
+.welocome-button {
+    color: whitesmoke;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* pink section  */
+.bg-color {
+
+    background-image: linear-gradient(to bottom, #ff000023, #ff000000);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.pink-content {
+    padding: 150px 385px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pink-btn {
+
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* circle section */
+.circle_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.cicle-text-content {
+    width: 393px;
+}
+
+.circle-p_one {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.circle-p_two {
+    font-size: 20px;
+}
+.circle_img{
+    padding: 49px;
+    width: 463px; 
+    border: 10px solid red; 
+    border-radius: 50%;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+}
+
+.cicle-text-content h3 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.cicle-text-content-two {
+    width: 291px;
+}
+.cicle-text-content-two h3{
+font-size: 48px;
+font-weight: bold;
+}
+.cicle-text-content-two p{
+    font-size: 20px;
 }
