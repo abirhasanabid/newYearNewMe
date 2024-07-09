@@ -279,6 +279,7 @@
     border-bottom-left-radius: 50px;
     padding: 20px;
     border: none;
+    width: 65%;
 }
 
 .form-btn {
@@ -288,5 +289,6 @@
     border-bottom-right-radius: 50px;
     background-color: red;
     color: whitesmoke;
+    width: 20%;
 }
 /* footer section  */
