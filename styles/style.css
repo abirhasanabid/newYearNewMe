@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .custome-font {
-    font-family: "Merriweather", serif;
-    font-family: "Inter", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 /* shares  */
+.top-margin {
+    margin-top: 70px;
+}
+
 .share_color {
     color: #FF0000;
 }
@@ -296,7 +306,6 @@
 
 /* footer section  */
 footer {
-    margin-top: 100px;
     background-color: #070211;
 }
 
@@ -309,12 +318,22 @@ footer {
     align-items: center;
 }
 
+.icons p,
+.footer-img {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
 hr {
     width: 1600px;
-    /* color: transparent; */
+    margin: auto;
+    border-color: black;
 }
 
 .footer-img {
     text-align: center;
     padding: 20px 20px 20px 0;
+    gap: 20px;
 }
