@@ -255,7 +255,8 @@
 /* newsletter section*/
 .news-container {
     margin-top: 122px;
-    
+    height: 500px;
+
 }
 
 .news-content {
@@ -263,17 +264,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 616px;
     padding: 80px 212px;
 }
 
 .news-text {
     text-align: center;
 }
-.form{
+
+.form {
     width: 648px;
     margin: auto;
 }
+
 .form-input {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -291,4 +293,28 @@
     color: whitesmoke;
     width: 20%;
 }
+
 /* footer section  */
+footer {
+    margin-top: 100px;
+    background-color: #070211;
+}
+
+.text-div,
+.reserved {
+    display: flex;
+    color: white;
+    padding: 120px 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    width: 1600px;
+    /* color: transparent; */
+}
+
+.footer-img {
+    text-align: center;
+    padding: 20px 20px 20px 0;
+}
